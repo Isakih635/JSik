@@ -1,3 +1,4 @@
+/*
 console.log ("stepForward.");
 console.log ("turnRight.");
 console.log ("turnLeft.");
@@ -36,3 +37,4 @@ turnLeft()
 stepForward()
 turnAround()
 stepForward()
+*/
