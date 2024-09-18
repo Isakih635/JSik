@@ -1,20 +1,26 @@
-// Deklarera variabeln 'score'
-let score = 0;
 
-// Funktion för att öka poängen med ett visst värde
-function increaseBy(inputNumber) {
-  score += inputNumber; // Ökar 'score' med värdet som skickas in
+// Reference "text0" and assign it to the variable called "textField0"
+const text = document.getElementById("text0");
+// TAKE textField0 and change it to "Ben"
+text.innerHTML = getRandomInt(20);
+const button=document
+// Reference "header5" and assign it to the variable called "headerText5"
+const headerText5 = document.getElementById("header5");
+// TAKE headerText5 and change it to "THIS IS MA WEBSITE"
+headerText5.innerHTML = "THIS IS MA WEBSITE";
+// TAKE headerText5, access its style, access its color & change it.
+headerText5.style.color = "pink";
+
+
+function multiplyBySelf(numberToMultiply) {
+  return numberToMultiply * numberToMultiply;
 }
 
-// Funktion för att uppdatera poängen på skärmen
-function updateScore() {
-  const textElement = document.getElementById("text"); // Hämta elementet med id="text"
-  textElement.innerHTML = `Score: ${score}`; // Uppdatera dess textinnehåll med aktuell poäng
+function average(firstNumber, secondNumber) {
+  let sumOfNumbers = firstNumber + secondNumber;
+  return sumOfNumbers / 2;
 }
 
-// Lyssna på klickhändelsen på knappen med id="button0"
-const button = document.getElementById("button0");
-button.addEventListener("click", function() {
-  increaseBy(1);   // Öka poängen med 1 när knappen trycks
-  updateScore();   // Uppdatera textfältet med den nya poängen
-});
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
