@@ -1,34 +1,20 @@
-// Initialiserar score
+// Deklarera variabeln 'score'
 let score = 0;
 
-// Hämta element från DOM
-const textElement = document.getElementById("text0");
-const increaseButton = document.getElementById("increaseBtn");
-const decreaseButton = document.getElementById("decreaseBtn");
-
-// Funktion för att uppdatera texten med aktuell score
-function updateScore() {
-  textElement.innerHTML = `Score: ${score}`;
-}
-
-// Funktion för att öka poängen
+// Funktion för att öka poängen med ett visst värde
 function increaseBy(inputNumber) {
-  score += inputNumber;
-  updateScore(); // Uppdatera texten med nya poängen
+  score += inputNumber; // Ökar 'score' med värdet som skickas in
 }
 
-// Funktion för att minska poängen
-function decreaseBy(inputNumber) {
-  score -= inputNumber;
-  updateScore(); // Uppdatera texten med nya poängen
+// Funktion för att uppdatera poängen på skärmen
+function updateScore() {
+  const textElement = document.getElementById("text"); // Hämta elementet med id="text"
+  textElement.innerHTML = `Score: ${score}`; // Uppdatera dess textinnehåll med aktuell poäng
 }
 
-// Lägg till händelselyssnare för att öka och minska poängen
-increaseButton.addEventListener('click', function() {
-  increaseBy(1); // Ökar poängen med 1
+// Lyssna på klickhändelsen på knappen med id="button0"
+const button = document.getElementById("button0");
+button.addEventListener("click", function() {
+  increaseBy(1);   // Öka poängen med 1 när knappen trycks
+  updateScore();   // Uppdatera textfältet med den nya poängen
 });
-
-decreaseButton.addEventListener('click', function() {
-  decreaseBy(1); // Minskar poängen med 1
-});
-
