@@ -1,6 +1,6 @@
 const textField0 = document.getElementById("textField0");
 textField0.innerHTML = getRandomInt(20);
-
+let score = 
 const headerText5 = document.getElementById("headerText5");
 headerText5.style.color ="pink";
 

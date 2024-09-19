@@ -1,9 +1,8 @@
-
 // Reference "text0" and assign it to the variable called "textField0"
-const text = document.getElementById("text0");
+const textField0 = document.getElementById("text0");
 // TAKE textField0 and change it to "Ben"
-text.innerHTML = getRandomInt(20);
-const button=document
+textField0.innerHTML = average(345);
+
 // Reference "header5" and assign it to the variable called "headerText5"
 const headerText5 = document.getElementById("header5");
 // TAKE headerText5 and change it to "THIS IS MA WEBSITE"
