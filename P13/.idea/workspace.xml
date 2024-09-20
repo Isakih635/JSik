@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d46bb77-77e6-4bbc-8128-52398801a37b" name="Changes" comment="">
+    <list default="true" id="017f172c-787f-4889-8c0b-414ca258667a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../P13HTMLDOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P13HTMLDOM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2m95d56HULVYkk4s71WdovGmpXj" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mKGUagBjx6A2vnemGPWlmjhUwi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/PROJEKT/JSik/P13HTMLDOM",
+    "last_opened_file_path": "C:/PROJEKT/JSik/P13",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -39,13 +40,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d46bb77-77e6-4bbc-8128-52398801a37b" name="Changes" comment="" />
-      <created>1726476035917</created>
+      <changelist id="017f172c-787f-4889-8c0b-414ca258667a" name="Changes" comment="" />
+      <created>1726817870915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726476035917</updated>
-      <workItem from="1726476037671" duration="19000" />
-      <workItem from="1726817813183" duration="21000" />
+      <updated>1726817870915</updated>
+      <workItem from="1726817871958" duration="134000" />
     </task>
     <servers />
   </component>

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb4f38d-bcd6-4679-b29b-f741da36f0d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../P13/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../P13/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/PROJEKT/JSik/P13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +58,9 @@
       <updated>1726665525627</updated>
       <workItem from="1726665527463" duration="3484000" />
       <workItem from="1726729543185" duration="1265000" />
+      <workItem from="1726756995532" duration="29000" />
+      <workItem from="1726817596430" duration="65000" />
+      <workItem from="1726817835297" duration="35000" />
     </task>
     <servers />
   </component>
