@@ -32,6 +32,10 @@ function getRandomNumberOneToSixForPlayer() {
   playerRoll = Math.floor(Math.random() * 6) + 1;
   computerRoll = Math.floor(Math.random() * 6) + 1;
 }
+  function getRandomNumberOneToSixForComputer() {
+    playerRoll = Math.floor(Math.random() *6) +1;
+    computerRoll = Math.floor(Math.random() * 6) + 1;
+}
 
 //Views
 function showPlayerRollResult() {
@@ -49,10 +53,9 @@ function determineWinner() {
     playerWins++;
   } else if (playerRoll < computerRoll) {
     gameResultText.innerText = "Result: Computer wins!";
-    computerWins++;
+
   } else {
     gameResultText.innerText = "Result: It's a tie!";
-    draws++;
   }
 }
 

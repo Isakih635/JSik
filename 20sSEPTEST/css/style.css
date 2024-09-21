@@ -23,9 +23,10 @@ html {
  *
  * Customize the background color to match your design.
  */
+body {    text-align: center; /* Centrera all text som standard */}
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #fafafa;
   text-shadow: none;
 }
 
@@ -242,6 +243,8 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid;
+
+
   }
 }
 
