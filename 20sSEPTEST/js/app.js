@@ -64,4 +64,6 @@ function updateStats() {
   playerWinsText.innerText= "Player Wins:" +playerWins;
   computerWinsText.innerText = "Computer Wins: " + computerWins;
   drawsText.innerText = "Draws: " + draws;
+
+
 }
