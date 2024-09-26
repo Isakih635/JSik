@@ -1,4 +1,4 @@
-// Varibles
+// Variables
 
 let button0 = document.getElementById("button0");
 
@@ -65,6 +65,5 @@ function updateStats() {
   computerWinsText.innerText = "Computer Wins: " + computerWins;
   drawsText.innerText = "Draws: " + draws;
 
-  document.cookie = "username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC"
 
 }
