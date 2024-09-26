@@ -65,5 +65,6 @@ function updateStats() {
   computerWinsText.innerText = "Computer Wins: " + computerWins;
   drawsText.innerText = "Draws: " + draws;
 
+  document.cookie = "username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC"
 
 }
