@@ -44,6 +44,7 @@ function showPlayerRollResult() {
 
 function showComputerRollResult() {
   computerRollText.innerText = "Computer Roll: " +computerRoll;
+
 }
 
 // Determine Winner
@@ -53,13 +54,14 @@ function determineWinner() {
     playerWins++;
   } else if (playerRoll < computerRoll) {
     gameResultText.innerText = "Result: Computer wins!";
-
+computerWins++;
   } else {
     gameResultText.innerText = "Result: It's a tie!";
+    draws++;
   }
 }
 
-// Uppdatera statistik
+// Update statistics
 function updateStats() {
   playerWinsText.innerText= "Player Wins:" +playerWins;
   computerWinsText.innerText = "Computer Wins: " + computerWins;

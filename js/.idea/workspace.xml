@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d46bb77-77e6-4bbc-8128-52398801a37b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../A1/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../A1/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../P13HTMLDOM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P13HTMLDOM/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/PROJEKT/JSik/P13HTMLDOM",
+    "last_opened_file_path": "C:/PROJEKT/JSik/js",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,6 +47,7 @@
       <updated>1726476035917</updated>
       <workItem from="1726476037671" duration="19000" />
       <workItem from="1726817813183" duration="21000" />
+      <workItem from="1727428343068" duration="10000" />
     </task>
     <servers />
   </component>
