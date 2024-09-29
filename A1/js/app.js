@@ -39,11 +39,11 @@ function getRandomNumberOneToSixForPlayer() {
 
 //Views
 function showPlayerRollResult() {
-  playerRollText.innerText = "Player Roll: " +playerRoll;
+  playerRollText.innerText = "Player: " +playerRoll;
 }
 
 function showComputerRollResult() {
-  computerRollText.innerText = "Computer Roll: " +computerRoll;
+  computerRollText.innerText = "Computer: " +computerRoll;
 
 }
 
@@ -63,7 +63,7 @@ computerWins++;
 
 // Update statistics
 function updateStats() {
-  playerWinsText.innerText= "Player Wins:" +playerWins;
+  playerWinsText.innerText= "Player Wins: " +playerWins;
   computerWinsText.innerText = "Computer Wins: " + computerWins;
   drawsText.innerText = "Draws: " + draws;
 

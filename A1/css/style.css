@@ -25,6 +25,7 @@ html {
  */
 body {    text-align: center; /* Centrera all text som standard */}
 
+
 ::-moz-selection {
   background: #fafafa;
   text-shadow: none;
