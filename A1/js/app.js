@@ -73,7 +73,7 @@ function updateStats() {
 }
   //COOKIES
   function saveAsCookie() {
-    document.cookie = "playerWins" + playerWins + "; expires=Thu, 18 Dec 2025 12:00:00 UTC";
+    document.cookie = "playerWins=" + playerWins + "; expires=Thu, 18 Dec 2025 12:00:00 UTC";
     document.cookie = "computerWins=" + computerWins + "; expires=Thu, 18 Dec 2025 12:00:00 UTC";
     document.cookie = "draws=" + draws + "; expires=Thu, 18 Dec 2025 12:00:00 UTC";
   }
